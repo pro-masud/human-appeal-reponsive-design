@@ -922,7 +922,7 @@ nav{
     color: #7B7B7B;
 }
 .member-item{
-    background: rgba(255, 218, 99, 0.51);
+    background-image: rgba(255, 218, 99, 0.51);
     border: 3px solid #000000;
     cursor: pointer;
     transition: .3s;
@@ -999,4 +999,201 @@ nav{
 .member-img-m img{
     width: 100%;
     height: 100%;
+}
+
+/* section volunteer styleing strat now */
+.volunteer{
+    background-image: linear-gradient(#F5F5F5) ;
+    padding: 70px 0px;
+}
+.valunteer-log{
+    width: 568.85px;
+    height: 694.69px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 69px 64px;
+    
+}
+.valunteer-log h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #595959;
+}
+.valunteer-btn{
+    margin-top: 69px;
+}
+.valunteer-btn input{
+    display:block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 17px;
+    margin-bottom:19px;
+    border: 1px solid #5F5F5F;
+}
+.valunteer-btn input::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #5F5F5F;
+    border: 1px solid #5F5F5F;
+}
+.valunteer-btn input[type ="submit"]{
+    background-color: #005C98;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: 1px solid #5F5F5F;
+}
+.valunteer-btn a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #747474;
+    text-align: center;
+}
+.volunteer-img{
+    width: 538.91px;
+    height: 694.69px;
+    border-radius: 10px;
+}
+.volunteer-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* footer section styleing how */
+.footer-top{
+    background-color: #0066A3;
+    padding: 48px 20px;
+}
+.widget-item h4{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.footer-info p{
+    margin: 7px 0;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.footer-social-link{
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin-top: 69px;
+    
+}
+.footer-social-link a{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.footer-social-link a i{
+   color: #FFFFFF;
+}
+.upload-btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-btn{
+    margin-top: 69px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.footer-btn a{
+    background-color: #F55714;
+    border-radius: 5px;
+    font-family: 'Helvetica Neue LT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 8px 12px;
+}
+
+.footer-top hr{
+    border: 1px solid #FFFFFF;
+}
+.pages-link{
+    margin-top: 20px;
+}
+.pages-link a{
+    display: block;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    transform: .3s;
+}
+.pages-link a:hover {
+    text-decoration: underline;
+}
+
+/* main footer styleing now */
+.main-footer{
+    background-color: #034C78;
+    height: 158px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-copy-right-text p{
+    font-family: 'Helvetica Neue LT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.footer-right-link{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.footer-right-link a{
+    font-family: 'Helvetica Neue LT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    color: #FFFFFF;
+    transition: 0.4s;
+    margin: 0px 12px;
+    text-transform: uppercase;
+}
+.footer-right-link a:hover{
+    text-decoration: underline;
 }
