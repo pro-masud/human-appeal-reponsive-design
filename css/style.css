@@ -28,7 +28,7 @@ a{
     font-family: 'Maven Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 19px;
     color: #FFFFFF;
 }
@@ -36,7 +36,7 @@ a{
     margin-left: 30px;
 }
 .top-info p span i{
-    font-size: 18px;
+    font-size: 16px;
 }
 .top-social{
     display:flex;
@@ -182,7 +182,7 @@ nav{
     margin-top: 30px;
 }
 .emergency_right{
-    width: 515px;
+    max-width: 480px;
     height: 278px;
     background: rgba(255, 255, 255, 0.2);
     opacity: 0.9;
@@ -574,7 +574,7 @@ nav{
     color: #000000;
 }
 .working-left img{
-    width: 502px;
+    max-width: 502px;
     height: 677px;
     margin-top: 17px;
 }
@@ -587,7 +587,7 @@ nav{
     color: #000000;
 }
 .working-right img{
-    width: 485px;
+    max-width: 485px;
     height: 485px;
     margin-top: 17px;
 }
@@ -1348,4 +1348,65 @@ nav{
 .login_img img{
     width: 100%;
     height: 100%;
+}
+
+
+/* testmunial page design how */
+.testmunial{
+    background-image: linear-gradient(150deg, #F5F5F5, hsl(191, 100%, 80%));
+    padding: 70px 0px ;
+}
+.testmunial-item{
+    margin-bottom: 28px;
+}
+.testi-lg-img{
+    max-width: 810px;
+    height: 462px;
+}
+.testi-lg-img img{
+    width: 100%;
+    height: 100%;
+}
+.testi-md-img{
+    max-width: 370px;
+    height: 462px;
+}
+.testi-md-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* gellary page styleing now */
+.ourprojectset{
+    background-image: linear-gradient(150deg, hsl(191, 100%, 80%), #F5F5F5);
+    padding: 70px 0px ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.ourprojectset-info {
+    margin-top: 100px;
+}
+.ourprojectset-info h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    align-items: center;
+    color: #424242;
+}
+.ourprojectset-info p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #747474;
+    margin-top: 33px;
+}
+.ourprojectser-img{
+    max-width: 320px;
+    height: 320px;
 }

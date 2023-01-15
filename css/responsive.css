@@ -186,6 +186,16 @@
     .widget-item{
         margin-top: 40px;
     }
+
+    .testi-lg-img{
+        max-width: 100%;
+        margin: 18px 0;
+     
+    }
+    .testi-md-img{
+        max-width: 100%;
+      
+    }
     
 }
 @media screen and (max-width: 768px){
@@ -254,19 +264,19 @@
         margin: 30px 0px;
     }
     .ongoingporject{
-        width: 520px;
-        height: 250px;
+        max-width: 220px;
+        height: 199px;
     }
     /* section 8 responsive */
     .instagram_img img{
-        width: 500.16px;
+        max-width: 500.16px;
         height: 250.07px;
     }
     .campaign-box-right h5{
         width: 100%;
     }
     .campaign-box-left {
-        width: 500px;
+        max-width: 500px;
         height: 400px;
         padding: 20px;
     }
@@ -309,7 +319,7 @@
         padding: 30px;
     }
     .user_info img{
-        width: 320px;
+        max-width: 320px;
         height: 320px;
     }
     .about_video{
@@ -347,7 +357,7 @@
     }
     /* section 8 responsive */
     .instagram_img img{
-        width: 400.16px;
+        max-width: 400.16px;
         height: 250.07px;
     }
     /* campaine section now */
@@ -357,8 +367,16 @@
         padding: 20px;
     }
     .last-img img{
-        width: 550px;
+        max-width: 550px;
         height: 500px;
     }
     
+}
+
+@media screen and (max-width: 480px){
+    .emergency_right{
+        max-width: 300px;
+        height: 220px;
+        margin-top: 30px;
+    }
 }
