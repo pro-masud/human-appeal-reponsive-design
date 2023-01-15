@@ -1180,7 +1180,7 @@ nav{
 .footer-right-link{
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: end;
 }
 .footer-right-link a{
     font-family: 'Helvetica Neue LT';
@@ -1409,4 +1409,8 @@ nav{
 .ourprojectser-img{
     max-width: 320px;
     height: 320px;
+}
+.ourprojectser-img img{
+    width: 100%;
+    height: 100%;
 }
