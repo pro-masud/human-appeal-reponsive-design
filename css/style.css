@@ -811,7 +811,10 @@ nav{
 /* project box row styleing strat */
 .last-post{
     background-image: linear-gradient(#d7e9f7,#fafafa);
-    padding: 20px 0px;
+    padding: 70px 0px;
+}
+.project-box{
+    margin-bottom: 40px;
 }
 .project-img{
     width: 276px;
