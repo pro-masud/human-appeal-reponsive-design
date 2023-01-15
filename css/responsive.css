@@ -196,6 +196,9 @@
         max-width: 100%;
       
     }
+    .fm-btn{
+        margin-left:0px;
+    }
     
 }
 @media screen and (max-width: 768px){
@@ -295,6 +298,24 @@
         width: 100%;
         height: 100%;
     }
+    .f-message h3 {
+        font-size: 34px;
+    }
+    .fonder-head{
+        flex-direction: column;
+    }
+    .fm-btn{
+        margin-top: 20px;
+    }
+    .misstion{
+        flex-direction: column;
+        height: 470px;
+    }
+    .misstion-item{
+        padding: 30px;
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 576px){
@@ -370,6 +391,10 @@
         max-width: 550px;
         height: 500px;
     }
+    .f-message h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
     
 }
 
@@ -378,5 +403,9 @@
         max-width: 300px;
         height: 220px;
         margin-top: 30px;
+    }
+    .f-message h3 {
+        font-size: 26px;
+        line-height: 30px;
     }
 }
