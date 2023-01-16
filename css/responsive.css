@@ -203,6 +203,12 @@
         flex-direction: column;
         height:1073px;
     }
+    .contact-log {
+        height: 871px;
+    }
+    .log-btn input{
+        width: 100%;
+    }
     
 }
 @media screen and (max-width: 768px){
@@ -412,4 +418,9 @@
         font-size: 26px;
         line-height: 30px;
     }
+    .contact-log {
+        padding: 40px;
+}
+    }
+
 }

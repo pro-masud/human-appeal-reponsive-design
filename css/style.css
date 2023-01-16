@@ -1625,3 +1625,96 @@ nav{
     width: 100%;
     height: 100%;
 }
+
+/* contact page styleing strat now */
+.contact{
+    background-image: linear-gradient(#d7e9f7,#fafafa);
+    padding: 70px 0px;
+}
+
+.contact-log{
+    max-width: 1052px;
+    height: 684px;
+    background: rgba(218, 241, 255, 0.5);
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    padding: 80px;
+    margin: 0 auto;
+}
+
+
+.contact-log h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #005C98;
+    text-align: center;
+}
+.contact-log p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #005C98;
+    max-width: 570px;
+    margin: 20px auto 30px;
+}  
+.log-btn input{
+    width: 47%;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    padding: 11px 9px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 3px;
+    border: none;
+
+}
+.log-btn input::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 92, 152, 1);
+}
+.contact-log textarea{
+    width: 100%;
+    height: 86px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    padding: 11px 9px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 3px;
+    border: none;
+}
+
+.contact-log textarea::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 92, 152, 1);
+}
+
+.contact-log > input{
+    background: #005C98;
+    border-radius: 5px;
+    font-family: 'Helvetica Neue LT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 25px;
+    border: none;
+    margin: 0px auto;
+    text-transform: uppercase;
+}
