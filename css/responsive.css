@@ -199,6 +199,10 @@
     .fm-btn{
         margin-left:0px;
     }
+    .vistion-misstion{
+        flex-direction: column;
+        height:1073px;
+    }
     
 }
 @media screen and (max-width: 768px){

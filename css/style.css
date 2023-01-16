@@ -1568,3 +1568,60 @@ nav{
     line-height: 19px;
     color: #000000;   
 }
+
+/* vistion-misstion page styleing start now */
+.vistion-misstions{
+    background-image: linear-gradient(#d7e9f7,#fafafa);
+    padding: 70px 0px;
+}
+
+.vistion-misstion{
+    max-width: 1166px;
+    height: 637px;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 2px 34px 7px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(40px);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vistion-misstion-item{
+    padding: 40px;
+    margin-bottom: 20px;
+}
+.vistion-misstion-item img{
+    width: 67px;
+    height: 67px;
+}
+.vistion-misstion-item h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+    color: #231F20;
+    margin: 16px 0px 14px;
+}
+
+
+.vistion-misstion-item p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #000000;
+}
+
+.vistion-misstion-img{
+    max-width: 577px;
+    height: 640px;
+    border-radius: 10px;
+}
+.vistion-misstion-img img{
+    width: 100%;
+    height: 100%;
+}
