@@ -1,0 +1,8 @@
+wordpress theme page compliate now
+	1. Blog page
+	2. Single Page
+	3. home page
+	4. Gellary Page
+	5. Textmuial Page
+	6. Login Page
+	7. contact us page 
