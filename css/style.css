@@ -121,7 +121,8 @@ nav{
     height: 760px;
 }
 .hunger{
-    width: 505px;
+    max-width: 505px;
+    width: 100%;
     height: 324px;
     background: rgba(255, 255, 255, 0.7);
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
@@ -368,6 +369,8 @@ nav{
 }
 
 .modal_item{
+    max-width: 16%;
+    width: 100%;
     margin: 40px 0;
 }
 .modal_item{
@@ -515,6 +518,9 @@ nav{
 }
 
 .TopwatchFe{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
     max-width: 740px;
     width: 100%;
     margin: 0 auto;
@@ -524,12 +530,14 @@ nav{
     transform: translate(-50%);
 }
 .TopwatchFe_item{
-   width: 100%;
-   height: 132px;
+    max-width: 28%;
     background: #FFFFFF;
     box-shadow: 0px 4px 11px -4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     text-align: center;
+}
+.right_img{
+    position: relative;
 }
 
 .TopwatchFe_item h3{
@@ -548,6 +556,12 @@ nav{
     font-size: 16px;
     line-height: 19px;
     color: #636363;
+}
+.TopwatchFe_item img{
+    max-width: 100%;
+    position: absolute;
+    top: 23px;
+    right: -48px;
 }
 
 /* section 6 styleing now */
@@ -618,8 +632,8 @@ nav{
     height:58px;
     position: absolute;
     left: 0px;
-    bottom: -60px;
-    background-color:#FFCE2D;
+    bottom: 0px;
+    background-color:#ffce2db6;
     border-radius: 0px 0px 19px 19px;
     transition: 0.4s;
 }
@@ -633,9 +647,7 @@ nav{
     color: #000000;
     padding: 15px;
 }
-.ongoingporject:hover .onproject-title{
-    bottom: 0px;
-}
+
 .onproject_btn{
     text-align: right;
     margin-right: 40px;
@@ -1422,8 +1434,15 @@ nav{
 
 /* foundermessage page styleing start */
 .foundermessage{
-    background-image: linear-gradient(#d7e9f7,#fafafa);
+    
     padding: 70px 0px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 2px 34px 7px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(40px);
+    border-radius: 20px;
+
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 20px;
 }
 .f-message{
     max-width: 637px;

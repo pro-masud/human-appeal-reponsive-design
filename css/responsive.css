@@ -213,6 +213,10 @@
     .log-btn input{
         width: 100%;
     }
+
+    .modal_item{
+        max-width: 25%;
+    }
     
 }
 @media screen and (max-width: 768px){
@@ -334,6 +338,10 @@
         height: 100%;
     }
 
+    .modal_item{
+        max-width: 33%;
+    }
+
 }
 
 @media screen and (max-width: 576px){
@@ -413,6 +421,10 @@
         font-size: 30px;
         line-height: 38px;
     }
+
+    .modal_item{
+        max-width: 50%;
+    }
     
 }
 
@@ -428,7 +440,10 @@
     }
     .contact-log {
         padding: 40px;
-}
+
+    }
+    .modal_item{
+        max-width: 100%;
     }
 
 }
